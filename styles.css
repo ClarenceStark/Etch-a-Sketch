@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+#main-docker {
+
+    height: 900px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+
+
+    display: flex;
+
+}
+
+.square {
+
+
+    background-color: rgb(172, 172, 172);
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(30, 75, 255);
+    color: white;
+    box-shadow: 3px 3px 10px rgb(30, 116, 255);
+    margin: 400px 100px 0 0;
+}
+
+button:hover {
+    background-color: blue;
+}
